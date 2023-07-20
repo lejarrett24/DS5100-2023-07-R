@@ -56,13 +56,6 @@
     "text": "Week\nDay\nDate\nTopic\nAssessments\n\n\n\n\n01\nMon\n07/17\nM01 Getting Started\n\n\n\n02\nTue\n07/18\nM02 Introducing Python\n\n\n\n03\nWed\n07/19\nM03 Control Structures\n\n\n\n04\nThu\n07/20\nM04 Functions\n\n\n\n05\nFri\n07/21\nReview Day\n\n\n\n06\nMon\n07/24\nM05 NumPy\n\n\n\n07\nTue\n07/25\nM06 Pandas\n\n\n\n08\nWed\n07/26\nM07 Classes\n\n\n\n09\nThu\n07/27\nM08 Testing\n\n\n\n10\nFri\n07/28\nReview Day\n\n\n\n11\nMon\n07/31\nM09 Modules and Packages\n\n\n\n12\nTue\n08/01\nM10 Basic R\n\n\n\n13\nWed\n08/02\nM11 Dplyr\n\n\n\n14\nThu\n08/03\nFinal Projects\n\n\n\n15\nFri\n08/04\nReview Day\n\n\n\n16\nMon\n08/07\nM12 Visualization\n\n\n\n17\nTue\n08/08\nM13 Agile\n\n\n\n18\nWed\n08/09\nProjects\n\n\n\n19\nThu\n08/10\nProjects\n\n\n\n20\nFri\n08/11\nFinal Exam"
   },
   {
-    "objectID": "topics/oreilly-accounts.html",
-    "href": "topics/oreilly-accounts.html",
-    "title": "Setting Up O’Reilly",
-    "section": "",
-    "text": "O’Reilly for Higher Education contains books on all aspects of computers, programming and the Web from such publishers as O’Reilly, Sams, New Riders, Adobe. Students can access content for free.\nFollow these instructions to set up your account:\nGo to https://www.oreilly.com/library/view/temporary-access/.\nYou should see this dialog box:\n\nClick on Institution not listed? This will produce the following dialog box:\n\nIf you are first time user, enter your UVA email address and clicl on the big red button.\nThis should produce the following message:\n\nNow you can access all the books in the collection. When you return, click on Already a user? in the second dialog box."
-  },
-  {
     "objectID": "modules/m01/m01-intro.html#topics",
     "href": "modules/m01/m01-intro.html#topics",
     "title": "M01 Getting Started",
@@ -193,14 +186,14 @@
     "href": "modules/m01/m01-activity-github.html#introduction",
     "title": "Activity: Using Git and GitHub",
     "section": "Introduction",
-    "text": "Introduction\nIn this activity, you will go through steps of using Git and GitHub covered in the the reading on GitHub. You can also draw on the what you learned in the Technical Orientation. At this point, you also should be able check off the following items:\n\nUnderstand the difference between Git and GitHub.\nUnderstand the purpose of Git and Github for data science work.\nEnsure Git is installed on your computer.\nUnderstand how to find a repository on GitHub.\n\nLet’s apply and extend this knowledge now with our course repo.\nBe sure you are inside the course directory on Rivanna we created earlier.\nWe assume you have already created a GitHub account.\nAlso, before you get started, follow these instructions to set an SSH key. You can create this on both your computer and Rivanna, but for the assignment you need only create it on Rivanna.\nFork the course GitHub hosted repository (“repo”) to your GitHub account.\nGo to https://github.com/ontoligent/DS5100-2023-07-R in your web browser.\n\n\n\n\n\n\nNote\n\n\n\nThis is the course repo — all of the course notebooks and other code will be available here. Each week, you will access your course materials here.\n\n\nClick on the Fork icon in the upper right and follow the prompts to finish the process.\nYou should end up at the web page of your newly forked repo.\nYou will now have a copy of the repo in your GitHub account.\nClone the forked repo for this course inside of your course directory on Rivanna.\nFind the green Code button and click on it. You should see something like this:\n\nMake sure you have selected the SSH option.\n\n\n\n\n\n\nImportant\n\n\n\nNote: This requires that you have SSH set up.\n\n\nThen click on the copy icon and paste the value into the following command:\ngit clone https://github.com:<github_user_name>/DS5100-2023-07-R.git\n\n\n\n\n\n\nImportant\n\n\n\nBe sure to clone the repo from your GitHub account, replacing <github_user_name> with your GitHub user name. Do not just cut-and-paste the line above!\n\n\nYou now have a copy the course repo to your account on Rivanna.\nThis will be the directory you created in your pre-class activities under Documents/.\nCreate a new file in your newly cloned repo.\nGo to your command line window on Rivanna.\nUse cd to move into the directory just created by the clone operation.\nMove into the directory notebooks/M01_GettingStarted/hello\n\n\n\n\n\n\nImportant\n\n\n\nMake sure you are in this directory before proceeding.\n\n\nIf you get lost – for example if you moved around the file system before this step – you can cd to the absolute path:\ncd ~/Documents/MSDS/DS5100/DS5100-2023-07-R/notebooks/M01_GettingStarted/hello \nNote that the tilde sign ~ stands for the path to your home directory.\nUsing the file editor on Rivanna, create and save new file called <userid>_hello.txt, replacing <userid> with your actual user ID, e.g. rca2t_hello.txt.\nIn the file, introduce yourself by answering the question: What is the most recent film you watched and enjoyed?\nSave the file.\nAdd and commit the changes you made.\nNow do the following:\ngit add <userid>_hello.txt\ngit commit -m \"Created file for class\"\nPush your new file to the repo on GitHub.\nSince you have SSH set up, you can issue the following command without having to enter a password:\n\ngit push\n\n\nCreate a Pull Request\nFinally, make a pull request to have your file added to the original site. To do this, follow these steps:\nClick on the “Pull requests” menu item (see image below) on the web page for your repo.\n\n\n\nImage of pull request button on GitHub\n\n\nClick on the green “New pull request” button.\nClick on the green “Create pull request” button.\nGive the request the title “In-class activity” and then press the green “Create pull request” button at the bottom of the form.\nNow the ball is in the instructor’s court to merge the request with the original. If you put your file in the right place and named it properly, it will be merged."
+    "text": "Introduction\nIn this activity, you will go through steps of using Git and GitHub covered in the the reading on GitHub. You can also draw on the what you learned in the Technical Orientation. At this point, you also should be able check off the following items:\n\nUnderstand the difference between Git and GitHub.\nUnderstand the purpose of Git and Github for data science work.\nEnsure Git is installed on your computer.\nUnderstand how to find a repository on GitHub.\n\nLet’s apply and extend this knowledge now with our course repo.\nBe sure you are inside the course directory on Rivanna we created earlier.\nWe assume you have already created a GitHub account.\nAlso, before you get started, follow these instructions to set an SSH key. You can create this on both your computer and Rivanna, but for the assignment you need only create it on Rivanna.\nFork the course GitHub hosted repository (“repo”) to your GitHub account.\nGo to https://github.com/ontoligent/DS5100-2023-07-R in your web browser.\n\n\n\n\n\n\nNote\n\n\n\nThis is the course repo — all of the course notebooks and other code will be available here. Each week, you will access your course materials here.\n\n\nClick on the Fork icon in the upper right and follow the prompts to finish the process.\nYou should end up at the web page of your newly forked repo.\nYou will now have a copy of the repo in your GitHub account.\nClone the forked repo for this course inside of your course directory on Rivanna.\nFind the green Code button and click on it. You should see something like this:\n\n\nMake sure you have selected the SSH option.\n\n\n\n\n\n\nImportant\n\n\n\nNote: This requires that you have SSH set up.\n\n\nThen click on the copy icon and paste the value into the following command:\ngit clone https://github.com:<github_user_name>/DS5100-2023-07-R.git\n\n\n\n\n\n\nImportant\n\n\n\nBe sure to clone the repo from your GitHub account, replacing <github_user_name> with your GitHub user name. Do not just cut-and-paste the line above!\n\n\nYou now have a copy the course repo to your account on Rivanna.\nThis will be the directory you created in your pre-class activities under Documents/.\nCreate a new file in your newly cloned repo.\nGo to your command line window on Rivanna.\nUse cd to move into the directory just created by the clone operation.\nMove into the directory notebooks/M01_GettingStarted/hello\n\n\n\n\n\n\nImportant\n\n\n\nMake sure you are in this directory before proceeding.\n\n\nIf you get lost – for example if you moved around the file system before this step – you can cd to the absolute path:\ncd ~/Documents/MSDS/DS5100/DS5100-2023-07-R/notebooks/M01_GettingStarted/hello \nNote that the tilde sign ~ stands for the path to your home directory.\nUsing the file editor on Rivanna, create and save new file called <userid>_hello.txt, replacing <userid> with your actual user ID, e.g. rca2t_hello.txt.\nIn the file, introduce yourself by answering the question: What is the most recent film you watched and enjoyed?\nSave the file.\nAdd and commit the changes you made.\nNow do the following:\ngit add <userid>_hello.txt\ngit commit -m \"Created file for class\"\nPush your new file to the repo on GitHub.\nSince you have SSH set up, you can issue the following command without having to enter a password:\n\ngit push\n\n\nCreate a Pull Request\nFinally, make a pull request to have your file added to the original site. To do this, follow these steps:\nClick on the “Pull requests” menu item (see image below) on the web page for your repo.\n\n\n\nImage of pull request button on GitHub\n\n\nClick on the green “New pull request” button.\nClick on the green “Create pull request” button.\nGive the request the title “In-class activity” and then press the green “Create pull request” button at the bottom of the form.\nNow the ball is in the instructor’s court to merge the request with the original. If you put your file in the right place and named it properly, it will be merged."
   },
   {
     "objectID": "modules/m01/m01-activity-github.html#going-forward",
     "href": "modules/m01/m01-activity-github.html#going-forward",
     "title": "Activity: Using Git and GitHub",
     "section": "Going Forward",
-    "text": "Going Forward\nDuring the semester, you will not be making pull requests to submit your work. We do it here to demonstrate the concept since it is so basic to working with GitHub in the real world.\nInstead of making pull requests, you will be using a separate repository for your work So, you will be working with two repositories going forard:\n\nThe Course Repo, which is where you will get course materials.\nYour Assessments Repo, which is where you will be your finished work as assigned."
+    "text": "Going Forward\nDuring the semester, you will not be making pull requests to submit your work. We do it here to demonstrate the concept since it is so basic to working with GitHub in the real world.\nInstead of making pull requests, you will be using a separate repository for your work So, you will be working with two repositories going forard:\n\nThe Course Repo, which is where you will get course materials. This should be updated each day.\nYour Assessments Repo, which is where you will be your finished work as assigned."
   },
   {
     "objectID": "modules/m02/m02-intro.html#topics",
@@ -277,7 +270,7 @@
     "href": "modules/m02/m02-activity-jupyter-lab-on-rivanna.html",
     "title": "Activity: Jupyter Lab",
     "section": "",
-    "text": "Now that we have run Python on Rivanna from the command line, let’s try it using a Jupyter Notebook.\nGo the OnDemand site to access Rivanna. As a reminder, the URL is https://rivanna-portal.hpc.virginia.edu/.\nFrom the Interactive Apps menu, select JupyterLab and fill out the form to initiate a new session.\nRemember to select just the resources needed and to enter our course allocations (msds_ds5100).\nOnce the session is ready, launch the notebook.\nOnce you are in the notebook, use file system tab on the left to get to the directory of your personal assessments repo. Remember, you created two repos for this class – one for course content from the instructor, and one for your own course work. Use the latter for this exercise.\nIn a code cell in the notebook, enter the code to print \"Hello, World!\", and run the cell.\nSave your notebook as hello-world.ipynb."
+    "text": "Now that we have run Python on Rivanna from the command line, let’s try it using a Jupyter Notebook.\nGo the OnDemand site to access Rivanna. As a reminder, the URL is https://rivanna-portal.hpc.virginia.edu/.\nFrom the Interactive Apps menu, select JupyterLab and fill out the form to initiate a new session. Your form should have the following values:\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nNote that you may increase the number of hours, cores, and megabytes of RAM, but asking for too much will increase the time it takes to start your session. So select just the resources needed and enter our course allocation msds_ds5100 if this value is different than in the image above).\n\n\nOnce the session is ready, launch the notebook.\nOnce you are in the notebook, use file system tab on the left to get to the directory of your personal assessments repo. Remember, you created two repos for this class — one for course content from the instructor, and one for your own course work. Use the latter for this exercise.\nIn a code cell in the notebook, enter the code to print \"Hello, World!\", and run the cell.\nSave your notebook as hello-world.ipynb."
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-01-DataTypes.html",
@@ -312,7 +305,7 @@
     "href": "notebooks/M02_BasicPython/M02-01-DataTypes.html#string-operators",
     "title": "NB: Data Types, Operators, and Expressions",
     "section": "String Operators",
-    "text": "String Operators\n\nconcatenation +\nThe plus sign is an ovderloaded operator in Python.\n\nmyString = 'This: '\n\n\nmy2ndString = myString + ' Goodbye, world!'\n\n\nmy2ndString\n\n'This:  Goodbye, world!'\n\n\n\n\nrepetition *\n\nmyString*2                     \n\n'This: This: '\n\n\n\nmyString * 5\n\n'This: This: This: This: This: '\n\n\n\nbart_S1E3 = 'I will not skateboard in the halls'\n\n\nprint((bart_S1E3 + '\\n') * 5)\n\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\n\n\n\n\nprint('-' * 80)\n\n--------------------------------------------------------------------------------\n\n\nSee them all :-)"
+    "text": "String Operators\n\nconcatenation +\nThe plus sign is an ovderloaded operator in Python.\n\nmyString = 'This: '\n\n\nmy2ndString = myString + ' Goodbye, world!'\n\n\nmy2ndString\n\n'This:  Goodbye, world!'\n\n\n\n\nrepetition *\n\n# print('-' * 80)\n\n\nmyString*2                     \n\n'This: This: '\n\n\n\nmyString * 5\n\n'This: This: This: This: This: '\n\n\n\nbart_S1E3 = 'I will not skateboard in the halls'\n\n\nprint((bart_S1E3 + '\\n') * 5)\n\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\nI will not skateboard in the halls\n\n\n\n\nprint('-' * 80)\n\n--------------------------------------------------------------------------------\n\n\nSee them all :-)"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-01-DataTypes.html#assignment-operator",
@@ -417,14 +410,14 @@
     "href": "notebooks/M02_BasicPython/M02-04-Strings.html#lower-.upper",
     "title": "NB: Strings",
     "section": ".lower(), .upper()",
-    "text": ".lower(), .upper()\n\n'BOB'.lower().upper()"
+    "text": ".lower(), .upper()\n\n'BOB'.lower() #.upper()\n\n'bob'"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-04-Strings.html#split",
     "href": "notebooks/M02_BasicPython/M02-04-Strings.html#split",
     "title": "NB: Strings",
     "section": ".split()",
-    "text": ".split()\nParase a string based on a delimiter, which defaults to whitespace.\nNOTE: This does not use regular expressions.\nThis returns a list.\n\nmontyPythonQuote = 'are.you.suggesting.coconuts.migrate'\n\n\n'are.you.suggesting.coconuts.migrate'.split('.')\n\n\nmontyPythonQuote\n\n\nmontyPythonQuote.split('.') # split by the '.' delimiter. Result: a list!"
+    "text": ".split()\nParase a string based on a delimiter, which defaults to whitespace.\nNOTE: This does not use regular expressions.\nThis returns a list.\n\nmontyPythonQuote = 'are.you.suggesting.coconuts.migrate'\n\n\n'are.you.suggesting.coconuts.migrate'.split('.')\n\n['are', 'you', 'suggesting', 'coconuts', 'migrate']\n\n\n\nmontyPythonQuote\n\n'are.you.suggesting.coconuts.migrate'\n\n\n\nmontyPythonQuote.split('.') # split by the '.' delimiter. Result: a list!\n\n['are', 'you', 'suggesting', 'coconuts', 'migrate']"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-04-Strings.html#strip-.rstrip-lstrip-strip-methods",
@@ -480,14 +473,14 @@
     "href": "notebooks/M02_BasicPython/M02-05-Structures.html#indexing",
     "title": "NB: Structures",
     "section": "Indexing",
-    "text": "Indexing\nZero-based indexing\nPython uses xzero-based indexing, which means for a collection mylist\nmylist[0] references the first element\nmylist[1] references the second element, etc\nFor any iterable object of length N:\nmylist[:n] will return the first n elements from index 0 to n-1\nmylist[-n:] will return the last n elements from index N-n to N-1\n\nnumbers[0] # Access first element (output: 1)\n\n\nnumbers[0] + numbers[3] # doing arithmetic with the values (output: 5)\n\n\nnumbers[len(numbers)]"
+    "text": "Indexing\nZero-based indexing\nPython uses xzero-based indexing, which means for a collection mylist\nmylist[0] references the first element\nmylist[1] references the second element, etc\nFor any iterable object of length N:\nmylist[:n] will return the first n elements from index 0 to n-1\nmylist[-n:] will return the last n elements from index N-n to N-1\n\nnumbers[0] # Access first element (output: 1)\n\n1\n\n\n\nnumbers[-1]\n\n4\n\n\n\nnumbers[0] + numbers[3] # doing arithmetic with the values (output: 5)\n\n5\n\n\n\nnumbers[len(numbers)]\n\nIndexError: list index out of range"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-05-Structures.html#slicing",
     "href": "notebooks/M02_BasicPython/M02-05-Structures.html#slicing",
     "title": "NB: Structures",
     "section": "Slicing",
-    "text": "Slicing\n\nnumbers[0:2] # Output: [1, 2]\n\n\nnumbers[1:3] # Output: [2, 3]\n\n\nlen(numbers) # use len() function to find the size. Output: 4\n\n\nnumbers[2:]  # Output: [3, 4]"
+    "text": "Slicing\n\nnumbers[0:2] # Output: [1, 2]\n\n[1, 2]\n\n\n\nnumbers[1:3] # Output: [2, 3]\n\n[2, 3]\n\n\n\nlen(numbers) # use len() function to find the size. Output: 4\n\n4\n\n\n\nnumbers[2:]  # Output: [3, 4]\n\n[3, 4]"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-05-Structures.html#multiply-lists-by-a-scalar",
@@ -522,14 +515,14 @@
     "href": "notebooks/M02_BasicPython/M02-05-Structures.html#lists-can-concatenated-with",
     "title": "NB: Structures",
     "section": "Lists can concatenated with +",
-    "text": "Lists can concatenated with +\n\nvariables = ['x1', 'x2', 'x3']\nresponse = ['y']\n\n\nvariables + response"
+    "text": "Lists can concatenated with +\n\nvariables = ['x1', 'x2', 'x3']\nresponse = ['y']\n\n\nvariables + response\n\n['x1', 'x2', 'x3', 'y']"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-05-Structures.html#constructing-1",
     "href": "notebooks/M02_BasicPython/M02-05-Structures.html#constructing-1",
     "title": "NB: Structures",
     "section": "Constructing",
-    "text": "Constructing\n\ndict1 = {\n    'a': 1,\n    'b': 2,\n    'c': 3\n}\n\n\ndict2 = dict(x=55, y=29, z=99) # Note the absence of quotes around keys\n\n\ndict2\n\n\ndict3 = {'A': 'foo', 99: 'bar', (1,2): 'baz'}\n\n\ndict3"
+    "text": "Constructing\n\ndict1 = {\n    'a': 1,\n    'b': 2,\n    'c': 3\n}\n\n\ndict2 = dict(x=55, y=29, z=99) # Note the absence of quotes around keys\n\n\ndict2\n\n{'x': 55, 'y': 29, 'z': 99}\n\n\n\ndict3 = {'A': 'foo', 99: 'bar', (1,2): 'baz'}\n\n\ndict3\n\n{'A': 'foo', 99: 'bar', (1, 2): 'baz'}"
   },
   {
     "objectID": "notebooks/M02_BasicPython/M02-05-Structures.html#retrieve-a-value",
@@ -609,6 +602,20 @@
     "text": "Readings\n\nRequired\n\n\nLutz, 2019, Part III, Chapter 10. Introducing Python Statements\n\n\nLutz, 2019, Part III, Chapter 11. Assignments, Expressions, and Prints Read only up to and including “The Python 3.X print Function.”\n\n\nLutz, 2019, Part III, Chapter 12. if Tests and Syntax Rules\n\n\nLutz, 2019, Part III, Chapter 13. while and for Loops\n\n\nLutz, 2019, Part III, Chapter 14. Iterations and Comprehensions\n\n\nLutz, 2019, Part III, Chapter 15: The Documentations Interlude\n\n\n\n\nOptional\n\n\nVariables, Expressions, Statements, Types (Python Notes)\n\n\nMore Control Flow Tools (Python Docs)\n\n\nIf … Then (W3S)\n\n\nIterators (GFG)"
   },
   {
+    "objectID": "topics/vals-vars-expressions-statements.html#definitions",
+    "href": "topics/vals-vars-expressions-statements.html#definitions",
+    "title": "Values, Variables, Expressions, and Statements",
+    "section": "Definitions",
+    "text": "Definitions\n\nValues: Raw data elements represented in a program, e.g. numbers and strings.\nVariables: Names to which values are assigned.\nExpressions: Combinations of values, variables, operators, functions, and other expressions that evaluate to a value.\nStatements: Groupings of expressions that produce some result. Statements do things."
+  },
+  {
+    "objectID": "topics/vals-vars-expressions-statements.html#statement-types",
+    "href": "topics/vals-vars-expressions-statements.html#statement-types",
+    "title": "Values, Variables, Expressions, and Statements",
+    "section": "Statement Types",
+    "text": "Statement Types\nSee Statement Types in Lutz."
+  },
+  {
     "objectID": "notebooks/M03_ControlStructures/M03-01-ControlStructures.html#introducing-control-structures",
     "href": "notebooks/M03_ControlStructures/M03-01-ControlStructures.html#introducing-control-structures",
     "title": "NB: Control Structures",
@@ -627,14 +634,14 @@
     "href": "notebooks/M03_ControlStructures/M03-01-ControlStructures.html#conditions",
     "title": "NB: Control Structures",
     "section": "Conditions",
-    "text": "Conditions\n\nif and else can be used for conditional processing.\n\nval = -2\n\nif val >=0:\n    print(val)\nelse:\n    print(-val)\n\n\n\nelif\nelif is reached when the previous statements are not.\n\nval = -2\n\nif -10 < val < -5:\n    print('bucket 1')\nif -5 <= val < -2:\n    print('bucket 2')\nelif val == -2:\n    print('bucket 3')\n\n\n\nelse\nelse can be used as a catchall\n\nval = 5\n\nif -10 < val < -5:\n    print('bucket 1')\nelif -5 <= val < -2:\n    print('bucket 2')\nelif val == -2:\n    print('bucket 3')\nelse:\n    print('bucket 4')\n\n\n\nif and else as one-liners\n\nx = 3\nprint('odd') if x % 2 == 1 else print('even')\n\nNotice == for checking the condition x % 2 == 1.\nboth if and else are required. This breaks:\n\nprint('odd') if x % 2 == 1\n\n\n\nUsing multiple conditions\nIf statements can be complex combinations of expressions.\nUse parentheses carefully, to keep order of operations correct.\n\n## correct\n\nval = 2\n\nif (-2 < val < 2) or (val > 10):\n    print('bucket 1')\nelse:\n    print('bucket 2')\n\n\n## incorrect - misplaced parenthesis\n\nif (-2 < val) < 2 or val > 10:\n    print('bucket 1')\nelse:\n    print('bucket 2')\n\nand this is because True < 2, as True is cast to integer value 1\nthis is not the desired result…but does it make sense?"
+    "text": "Conditions\n\nif and else can be used for conditional processing.\n\nval = -2\n\nif val >= 0:\n    print(val)\nelse:\n    print(-val)\n\n2\n\n\n\n\nelif\nelif is reached when the previous statements are not.\n\nval = -2\n\nif -10 < val < -5:\n    print('bucket 1')\nelif -5 <= val < -2:\n    print('bucket 2')\nelif val == -2:\n    print('bucket 3')\n\nbucket 3\n\n\n\n\nelse\nelse can be used as a catchall\n\nval = 5\n\nif -10 < val < -5:\n    print('bucket 1')\nelif -5 <= val < -2:\n    print('bucket 2')\nelif val == -2:\n    print('bucket 3')\nelse:\n    print('bucket 4')\n\nbucket 4\n\n\n\n\nif and else as one-liners\n\nx = 3\nprint('odd') if x % 2 == 1 else print('even')\n\nodd\n\n\nNotice == for checking the condition x % 2 == 1.\nboth if and else are required. This breaks:\n\nprint('odd') if x % 2 == 1\n\nSyntaxError: invalid syntax (471325368.py, line 1)\n\n\n\n\nUsing multiple conditions\nIf statements can be complex combinations of expressions.\nUse parentheses carefully, to keep order of operations correct.\n\n## correct\n\nval = 2\n\nif (-2 < val < 2) or (val > 10):\n    print('bucket 1')\nelse:\n    print('bucket 2')\n\nbucket 2\n\n\n\n## incorrect - misplaced parenthesis\n\nif (-2 < val) < 2 or val > 10:\n    print('bucket 1')\nelse:\n    print('bucket 2')\n\nbucket 1\n\n\nand this is because True < 2, as True is cast to integer value 1\nthis is not the desired result…but does it make sense?"
   },
   {
     "objectID": "notebooks/M03_ControlStructures/M03-01-ControlStructures.html#loops",
     "href": "notebooks/M03_ControlStructures/M03-01-ControlStructures.html#loops",
     "title": "NB: Control Structures",
     "section": "Loops",
-    "text": "Loops\n\nwhile\nWhat does this print?\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\nprint(ix)\n\n\n\nbreak to exit the loop altogether\nsometimes you want to quit the loop early, if some condition is met.\nuses if-statement\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\n    if ix == 4:\n        break\nprint(ix)\n\nThe break causes the loop to end early\n\n\ncontinue to stop the current iteration\nsometimes you want to introduce skipping behavior in the loop.\nuses if-statement\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\n    if ix == 4:\n        print('skipping 4...')\n        continue\n    print(ix)\n\nThe continue causes the loop to skip printing 4\n\n\nfor\niterate over an iterable\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    city = city.lower()\n    print(city)\n\nquit early if SF reached, using break\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    if city == 'SF':\n        break\n    city = city.lower()\n    print(city)\n\nskip over SF if reached, using continue\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    if city == 'SF':\n        continue\n    city = city.lower()\n    print(city)"
+    "text": "Loops\n\nwhile\nWhat does this print?\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\nprint(ix)\n\n16\n\n\n\n\nbreak to exit the loop altogether\nsometimes you want to quit the loop early, if some condition is met.\nuses if-statement\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\n    if ix == 4:\n        break\nprint(ix)\n\n4\n\n\nThe break causes the loop to end early\n\n\ncontinue to stop the current iteration\nsometimes you want to introduce skipping behavior in the loop.\nuses if-statement\n\nix = 1\nwhile ix < 10:\n    ix = ix * 2\n    if ix == 4:\n        print('skipping 4...')\n        continue\n    print(ix)\n\n2\nskipping 4...\n8\n16\n\n\nThe continue causes the loop to skip printing 4\n\n\nfor\niterate over an iterable\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    city = city.lower()\n    print(city)\n\ncharlottesville\nnew york\nsf\nbos\nla\n\n\nquit early if SF reached, using break\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    if city == 'SF':\n        break\n    city = city.lower()\n    print(city)\n\ncharlottesville\nnew york\n\n\nskip over SF if reached, using continue\n\ncities = ['Charlottesville','New York','SF','BOS','LA']\n\nfor city in cities:\n    if city == 'SF':\n        continue\n    city = city.lower()\n    print(city)\n\ncharlottesville\nnew york\nbos\nla"
   },
   {
     "objectID": "notebooks/M03_ControlStructures/M03-01-ControlStructures.html#while-vs-for",
@@ -662,7 +669,7 @@
     "href": "notebooks/M03_ControlStructures/M03-02-IterablesAndIterators.html#iterating-using-iter-and-next",
     "title": "NB: Iterables and Iterators",
     "section": "iterating using iter() and next()",
-    "text": "iterating using iter() and next()\niter() gets an iterator. Pops out a value each time it’s used.\nnext() gets the next item from the iterator\n\ntokens = ['living room','was','quite','large']\nmyit = iter(tokens)\nprint(next(myit)) \nprint(next(myit)) \nprint(next(myit)) \nprint(next(myit)) \n\nliving room\nwas\nquite\nlarge\n\n\nCalling next() when the iterator has reached the end of the list produces an exception:\n\nprint(next(myit))\n\nStopIteration: \n\n\nNext, look at the type of the iterator, and the documentation\n\ntype(myit)\n\nlist_iterator\n\n\n\nhelp(myit)\n\nHelp on list_iterator object:\n\nclass list_iterator(object)\n |  Methods defined here:\n |  \n |  __getattribute__(self, name, /)\n |      Return getattr(self, name).\n |  \n |  __iter__(self, /)\n |      Implement iter(self).\n |  \n |  __length_hint__(...)\n |      Private method returning an estimate of len(list(it)).\n |  \n |  __next__(self, /)\n |      Implement next(self).\n |  \n |  __reduce__(...)\n |      Return state information for pickling.\n |  \n |  __setstate__(...)\n |      Set state information for unpickling.\n\n\n\n\nhelp(next)\n\nHelp on built-in function next in module builtins:\n\nnext(...)\n    next(iterator[, default])\n    \n    Return the next item from the iterator. If default is given and the iterator\n    is exhausted, it is returned instead of raising StopIteration.\n\n\n\nNote that for implicitly creates an iterator and executes next() on each loop iteration. This is best way to iterate through a list-like object."
+    "text": "iterating using iter() and next()\niter() gets an iterator. Pops out a value each time it’s used.\nnext() gets the next item from the iterator\n\ntokens = ['living room','was','quite','large']\nmyit = iter(tokens)\nprint(next(myit)) \nprint(next(myit)) \nprint(next(myit)) \nprint(next(myit)) \n\nliving room\nwas\nquite\nlarge\n\n\nCalling next() when the iterator has reached the end of the list produces an exception:\n\nprint(next(myit))\n\nStopIteration: \n\n\nNext, look at the type of the iterator, and the documentation\n\ntype(myit)\n\nlist_iterator\n\n\n\n# help(myit)\n\n\nhelp(next)\n\nHelp on built-in function next in module builtins:\n\nnext(...)\n    next(iterator[, default])\n    \n    Return the next item from the iterator. If default is given and the iterator\n    is exhausted, it is returned instead of raising StopIteration.\n\n\n\nNote that for implicitly creates an iterator and executes next() on each loop iteration. This is best way to iterate through a list-like object."
   },
   {
     "objectID": "notebooks/M03_ControlStructures/M03-03-Comprehensions.html",
@@ -712,27 +719,6 @@
     "title": "M04 Functions",
     "section": "Readings",
     "text": "Readings\n\nRequired\n\n\nLutz 2019, Part IV, Chapter 16: Function Basics\n\n\nLutz 2019, Part IV, Chapter 17: Scopes Non-local is for advanced users\n\n\nLutz 2019, Part IV, Chapter 18. Arguments\n\n\nLutz 2019, Part IV, Chapter 19: Advanced Function Topics\n\n\n\n\nOptional\n\n\nMcKinney, Python for Data Analysis, Appendix A: Python Language Essentials\n\n\nRead section on Functions\n\n\nFunctions (W3S)\n\n\nGlobal and Local Variables (GFG)\n\n\nLambda Functions (Real Python)"
-  },
-  {
-    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing",
-    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing",
-    "title": "NB: Importing Functions",
-    "section": "Importing",
-    "text": "Importing\nCalling a function from the “math” library is straightforward:\n\nImport Python’s Math library with the command import math\nCall methods from the imported math object using “dot” notation, that is, .(any parameters).\n\nFor example:\nmath.sqrt(12)\nPut all of your import statements at the very top of your code, before anything else, other than any header comments (which you should have).\nHere are some example math functions:\n\nimport math # Typically best to put this line of code at the TOP of the file\n\n\nmath.sqrt(12)\n\n3.4641016151377544\n\n\n\nmath.floor(2.5) # returns largest whole number less than the argument\n\n2\n\n\nHere’s an example using the random library (a class).\n\nimport random # Typically best to put this line of code at the TOP of the file\n\n\nrandom.random()# will return a number between 0 and 1 \n\n0.3599068479674543\n\n\n\nrandom.randint(1, 100) # this will return a random integer in the range 1-100\n\n18"
-  },
-  {
-    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing-specific-functions",
-    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing-specific-functions",
-    "title": "NB: Importing Functions",
-    "section": "Importing Specific Functions",
-    "text": "Importing Specific Functions\nIf you know what specifics function you are going to use from a library, you can import them directly, like so:\nfrom math import sqrt\nThis has two effects: 1. It reduces the memory used by the library in your program. 2. It allows you to call the function directly, with the object dot notation.\n\nfrom math import sqrt\n\n\nsqrt(99)\n\n9.9498743710662"
-  },
-  {
-    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html#aliasing",
-    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html#aliasing",
-    "title": "NB: Importing Functions",
-    "section": "Aliasing",
-    "text": "Aliasing\nTo avoid having the function name conflict with an existing function in your program,\nyou can alias the imported function like so:\n\nfrom math import sqrt as SquareRoot\n\n\nSquareRoot(65000)\n\n254.95097567963924\n\n\n\ndef square(number):\n    return number * number  # square a number\n    \ndef addTen(number):\n    return number + 10  # Add 10 to the number   \n    \ndef numVowels(string):\n    string = string.lower()  # convert user input to lowercase\n    count = 0\n    for i in range(len(string)):\n        if string[i] == \"a\" or string[i] == \"e\" or \\\n           string[i] == \"i\" or string[i] == \"o\" or \\\n           string[i] == \"u\":\n           count += 1 # increment count\n    return count"
   },
   {
     "objectID": "notebooks/M04_PythonFunctions/M04-02-Functions.html#introduction",
@@ -803,6 +789,34 @@
     "title": "NB: Introduction to Functions",
     "section": "Function Design",
     "text": "Function Design\nA function is not just a bag of code!\nSome good practices for creating and using functions:\n\ndesign a function to do one thing\n\nMake them as simple as possible, which makes them:\n\nmore comprehensible\neasier to maintain\nreusable\n\nThis helps avoid situations where a team has 20 variations of similar functions.\nGive your function a good name.\n\nIt should reflect the action it performs.\nBe consistent in your naming conventions.\nA name like compute_variances_sort_save_print suggests the function is overworked!\n\nIf the function compute_variances also produces plots and updates variables, it will cause confusion.\nAlways give your function a docstring - Particularly important since indicating data types is not required.\n- As a side note, you can include this information by using type annotation.\nFinally, at some point you may be interested to learn some of the formatting languages that have been developed to write docstrings. See Lutz 2019 and this web page about Documenting Python Code for more info."
+  },
+  {
+    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html",
+    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html",
+    "title": "NB: Importing Functions",
+    "section": "",
+    "text": "Extra"
+  },
+  {
+    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing",
+    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing",
+    "title": "NB: Importing Functions",
+    "section": "Importing",
+    "text": "Importing\nCalling a function from the “math” library is straightforward:\n\nImport Python’s Math library with the command import math\nCall methods from the imported math object using “dot” notation, that is, .(any parameters).\n\nFor example:\nmath.sqrt(12)\nPut all of your import statements at the very top of your code, before anything else, other than any header comments (which you should have).\nHere are some example math functions:\n\nimport math # Typically best to put this line of code at the TOP of the file\n\n\nmath.sqrt(12)\n\n3.4641016151377544\n\n\n\nmath.floor(2.5) # returns largest whole number less than the argument\n\n2\n\n\nHere’s an example using the random library (a class).\n\nimport random # Typically best to put this line of code at the TOP of the file\n\n\nrandom.random()# will return a number between 0 and 1 \n\n0.3599068479674543\n\n\n\nrandom.randint(1, 100) # this will return a random integer in the range 1-100\n\n18"
+  },
+  {
+    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing-specific-functions",
+    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html#importing-specific-functions",
+    "title": "NB: Importing Functions",
+    "section": "Importing Specific Functions",
+    "text": "Importing Specific Functions\nIf you know what specifics function you are going to use from a library, you can import them directly, like so:\nfrom math import sqrt\nThis has two effects: 1. It reduces the memory used by the library in your program. 2. It allows you to call the function directly, with the object dot notation.\n\nfrom math import sqrt\n\n\nsqrt(99)\n\n9.9498743710662"
+  },
+  {
+    "objectID": "notebooks/M04_PythonFunctions/M04-01-Importing.html#aliasing",
+    "href": "notebooks/M04_PythonFunctions/M04-01-Importing.html#aliasing",
+    "title": "NB: Importing Functions",
+    "section": "Aliasing",
+    "text": "Aliasing\nTo avoid having the function name conflict with an existing function in your program,\nyou can alias the imported function like so:\n\nfrom math import sqrt as SquareRoot\n\n\nSquareRoot(65000)\n\n254.95097567963924"
   },
   {
     "objectID": "notebooks/M04_PythonFunctions/M04-03-LambdaFunctions.html#introduction",
@@ -2539,5 +2553,19 @@
     "title": "User Stories",
     "section": "",
     "text": "User Stories are at the heart of Agile development.\n\n\nInstead of eliciting requirements through a formal process, teams ask clients to provide statements in verbal form:\n\n\n\nAs a [type of user],\n\n\nI want [an action]\n\n\nso that [a benefit/value]\n\n\n\nThese are written on index cards.\n\n\nThese are accompanied by conversation to clarify the meaning of the sentences.\n\n\nThese are then converted into requirements:\n\n\n\nFunctional – relating specifically to how the software will work, i.e. function.\n\n\nNon-functional (so-called) – relating to the broader purpose and context of usage.\n\n\nThese map roughly onto the second and third parts of the user story.\n\n\nThey also map on MACHINE and HUMAN.\n\n\nThis page shows some examples of stories mapping onto features (so-called acceptance criteria).\n\n\n\nThese requirements are then prioritized\n\n\n\nUsing MSCW – Must / Should / Can / Won’t\n\n\nWithin the context of a scope definition in a charter (not discussed here)\n\n\nSee this link for some guidance.\n\n\n\nAfter this, requirements are serialized into a rough schedule, grouped into milestones.\n\n\nIn executing the “plan,” teams meet regularly in brief, stand-up meetings called scrums.\n\n\n\nThese happen daily\n\n\nThese involve the development team\n\n\nStakeholder representatives, such as the product manager, may attend too\n\n\n\nAt regular intervals, clients are introduced to the process\n\n\n\nPrototypes, MVPs, etc. are presented\n\n\nFeedback is elicited early and often\n\n\n\nThe process is driven by a communication plan:\n\n\n\nFrequency of meeting\n\n\nMode of communication – F2F, Slack, Git\n\n\nTask management tools – Jira, Trello, Smartsheet, etc.\n\n\n\nOther artifacts are involved in this process:\n\n\n\nThe project charter\n\n\nThe project plan\n\n\nA Kan Ban board\n\n\n\nBut we will get into these later."
+  },
+  {
+    "objectID": "topics/oreilly-accounts.html",
+    "href": "topics/oreilly-accounts.html",
+    "title": "Setting Up O’Reilly",
+    "section": "",
+    "text": "O’Reilly for Higher Education contains books on all aspects of computers, programming and the Web from such publishers as O’Reilly, Sams, New Riders, Adobe. Students can access content for free.\nFollow these instructions to set up your account:\nGo to https://www.oreilly.com/library/view/temporary-access/.\nYou should see this dialog box:\n\nClick on Institution not listed? This will produce the following dialog box:\n\nIf you are first time user, enter your UVA email address and clicl on the big red button.\nThis should produce the following message:\n\nNow you can access all the books in the collection. When you return, click on Already a user? in the second dialog box."
+  },
+  {
+    "objectID": "topics/refreshing-the-course-repo.html",
+    "href": "topics/refreshing-the-course-repo.html",
+    "title": "Refreshing the Course Repo",
+    "section": "",
+    "text": "Each day you will want to update the forked version of the course repo you created for your homework in Module 01.\nHere are the steps to do that:\nFirst, if you have made any changes to the course notebooks and want to keep your changes, make copies of these files in your private repo.\nSecond, enter the command git stash within your local repo to hide the changes you’ve made to the current branch. To learn more about how to use stash, check out the docs on GitHub. For now, we are just using it clean up the repo so when you pull, you don’t run into a conflict between local and remote changes.\nThird, go to the forked version of the course repo on GitHub and issue a Sync Fork command to refresh the content of your repo with the new course content. The screenshot below shows where this command is located on your repo’s web page:\n\nFourth, go back to your local repo and run git pull. You should now have the most recent content from the course repo."
   }
 ]
