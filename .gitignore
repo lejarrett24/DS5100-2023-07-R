@@ -1,7 +1,12 @@
 **/.DS_Store
 **/_HIDE
+**/_hide
 **/tmp
 **/Icon*
+**/*.db
+**/.Rhistory
+**/.RData
+**/.Rproj.user
 
 /.quarto/
 
